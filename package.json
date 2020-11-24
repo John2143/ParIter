@@ -1,0 +1,27 @@
+{
+  "name": "par-iter",
+  "version": "1.0.0",
+  "description": "Parallel iterators with concurrency limit and a simple API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "keywords": [
+    "parallel",
+    "async",
+    "await",
+    "concurrency",
+    "limit"
+  ],
+  "author": "John2143",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^14.14.7",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.0.0"
+  }
+}
